@@ -11,9 +11,8 @@ function App() {
       const res = await fetch(
         "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY&count=1"
       );
-      const dataArray = await res.json();
-      const data = dataArray[0];
-      setPhoto(data);
+      const data = await res.json();
+      setPhoto(data[0]);
       setIsLoading(false);
     }
     getPhoto();
