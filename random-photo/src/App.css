@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+:root {
+  --backgroud: #343434;
+  --text: #f3f3f3;
+  --accent: #2e2ebd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--background);
+  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.bgImg {
+  position: absolute;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: -10;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: var(--text);
+  padding: 15px 30px;
+  max-width: 100%;
+  width: 800px;
+  margin: 50px 0;
+}
+
+.loader {
+  border: 16px solid var(--text);
+  border-top: 16px solid var(--accent);
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  margin: 50px auto;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.75em;
+  font-weight: bold;
+}
+
+.caption {
+  text-align: justify;
+}
+
+.copy {
+  font-size: 0.75em;
+  font-style: italic;
+  text-align: left;
+}
+
+.btn {
+  background-color: var(--accent);
+  color: var(--text);
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px 40px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
