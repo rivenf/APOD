@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/APOD/static/css/main.6ecaa4fa.css",
+    "main.js": "/APOD/static/js/main.b98042bc.js",
+    "static/js/453.5a236000.chunk.js": "/APOD/static/js/453.5a236000.chunk.js",
+    "index.html": "/APOD/index.html",
+    "main.6ecaa4fa.css.map": "/APOD/static/css/main.6ecaa4fa.css.map",
+    "main.b98042bc.js.map": "/APOD/static/js/main.b98042bc.js.map",
+    "453.5a236000.chunk.js.map": "/APOD/static/js/453.5a236000.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ecaa4fa.css",
+    "static/js/main.b98042bc.js"
+  ]
+}
